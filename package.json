@@ -8,5 +8,8 @@
     "watch": "watchify main.js -o public/script.js"
   },
   "author": "idris-maps",
-  "license": "GPL-2.0"
+  "license": "GPL-2.0",
+  "dependencies": {
+    "hammerjs": "^2.0.8"
+  }
 }
