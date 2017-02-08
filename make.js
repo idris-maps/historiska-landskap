@@ -2,11 +2,11 @@ var fs = require('fs')
 var html = require('./make/make-html')
 
 var htmlConfig = {
-	keywords: '',
-	description: '',
-	title: '',
+	keywords: 'Sverige, historia, landskap, krig, landvinningar, landförluster, karta, map, interactive',
+	description: 'Sveriges historiska landskap - interaktiv karta',
+	title: 'Sveriges historiska landskap',
 	style: ['style.css'],
-	script: ['script.js']
+	script: ['script.min.js']
 }
 
 html(htmlConfig, function(page) {

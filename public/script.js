@@ -306,7 +306,6 @@ module.exports=[{"y":0,"ids":[4,5,6,9,11,16,18,19,21,22,23,24,25,27,29,30,32,33,
 },{}],4:[function(require,module,exports){
 module.exports = function(evt) {
 	var o = this
-	console.log('INIT map')
 	o.elements = getElements()
 	o.color = function(c) {
 		for(k in o.elements) { 
@@ -343,7 +342,7 @@ function getElements() {
 },{}],5:[function(require,module,exports){
 module.exports = function(evt) {
 	var o = this
-	console.log('INIT timeline')
+
 	o.el = document.getElementById('graph')
 	o.transform = function() {
 		var r = null
@@ -413,7 +412,6 @@ var getInfoByYear = require('./get-info-by-year')
 var getInfobox = require('./get-infobox')
 
 module.exports = function(o) {
-	console.log('INIT dispatch')
 	o.map.color(getIdsByYear(0))
 	swipe(o)
 
@@ -479,7 +477,6 @@ module.exports = function(info) {
 
 function clear(svg) {
 	var ib = document.getElementsByClassName('infobox')
-	console.log(ib)
 	if(ib.length > 0) { svg.removeChild(ib[0]) }
 }
 
@@ -540,7 +537,6 @@ module.exports = function() {
 var Hammer = require('hammerjs')
 
 module.exports = function(o) {
-	console.log('INIT swipe')
 
 	var m = null
 	var hammertime = new Hammer(document.getElementById('div-timeline'), {})
