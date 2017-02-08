@@ -299,8 +299,49 @@ function isUndefined(arg) {
 }
 
 },{}],2:[function(require,module,exports){
+module.exports=[{"y":0,"ids":[4,5,6,9,11,16,18,19,21,22,23,24,25,27,29,30,32,33,34,35,36,37,40,41,42,44,45],"gain":[],"loss":[]},{"y":1561,"ids":[11,16,18,19,21,22,23,24,25,27,29,30,32,33,34,35,36,37,4,40,41,42,44,45,5,6,9],"gain":[7],"loss":[]},{"y":1617,"ids":[11,16,18,19,21,22,23,24,25,27,29,30,32,33,34,35,36,37,4,40,41,42,44,45,5,6,7,9],"gain":[14,17],"loss":[]},{"y":1629,"ids":[11,14,16,17,18,19,21,22,23,24,25,27,29,30,32,33,34,35,36,37,4,40,41,42,44,45,5,6,7,9],"gain":[20],"loss":[]},{"y":1645,"ids":[11,14,16,17,18,19,20,21,22,23,24,25,27,29,30,32,33,34,35,36,37,4,40,41,42,44,45,5,6,7,9],"gain":[8,12,13,15,43],"loss":[]},{"y":1648,"ids":[11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,27,29,30,32,33,34,35,36,37,4,40,41,42,43,44,45,5,6,7,8,9],"gain":[28,38,39],"loss":[]},{"y":1654,"ids":[11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,27,28,29,30,32,33,34,35,36,37,38,39,4,40,41,42,43,44,45,5,6,7,8,9],"gain":[3],"loss":[]},{"y":1658,"ids":[11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,27,28,29,3,30,32,33,34,35,36,37,38,39,4,40,41,42,43,44,45,5,6,7,8,9],"gain":[0,1,2,10,26,31],"loss":[]},{"y":1660,"ids":[0,1,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,3,30,32,33,34,35,36,37,38,39,4,40,41,42,43,44,45,5,6,7,8,9],"gain":[],"loss":[2,31]},{"y":1719,"ids":[0,1,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,32,33,34,35,36,37,38,4,40,41,42,43,44,45,5,6,7,8,9],"gain":[],"loss":[3,39]},{"y":1721,"ids":[0,1,10,11,12,13,15,16,18,19,21,22,23,24,25,26,27,28,29,30,32,34,35,36,37,38,4,40,41,42,44,45,5,6,8,9],"gain":[],"loss":[7,14,17,20,33,43]},{"y":1803,"ids":[0,1,10,11,12,13,15,16,18,19,21,22,23,24,25,26,27,28,29,30,32,34,35,36,37,4,40,41,42,44,45,5,6,8,9],"gain":[],"loss":[38]},{"y":1809,"ids":[0,1,10,11,12,13,15,18,19,21,23,25,26,27,28,29,32,34,35,36,37,4,41,42,45,5,8,9],"gain":[],"loss":[6,16,18,22,24,25,30,40,44]},{"y":1815,"ids":[0,1,10,11,12,13,15,18,19,21,23,26,27,29,32,34,35,36,37,4,41,42,45,5,8,9],"gain":[],"loss":[28]},{"y":2000,"ids":[0,1,10,11,12,13,15,18,19,21,23,26,27,29,32,34,35,36,37,4,41,42,45,5,8,9],"gain":[],"loss":[]}]
+
+},{}],3:[function(require,module,exports){
 module.exports = function(evt) {
 	var o = this
+	console.log('INIT map')
+	o.elements = getElements()
+	o.color = function(c) {
+		for(k in o.elements) { 
+			o.elements[k].setAttribute('fill', '#d9d9d9') 
+			o.elements[k].setAttribute('stroke', 'none') 
+		}
+		c.curr.forEach(function(id) {
+			o.elements[id].setAttribute('fill', '#f7fcb9')
+			o.elements[id].setAttribute('stroke', '#252525')
+		})
+		c.gain.forEach(function(id) {
+			o.elements[id].setAttribute('fill', '#41ab5d')
+			o.elements[id].setAttribute('stroke', '#252525')
+		})
+		c.loss.forEach(function(id) {
+			o.elements[id].setAttribute('fill', '#fc4e2a')
+			o.elements[id].setAttribute('stroke', '#252525')
+		})
+		
+	}
+}
+
+function getElements() {
+	var parts = document.getElementsByClassName('part')
+	var r = {}
+	for(i=0;i<parts.length;i++) {
+		var el = parts[i]
+		var id = el.id.split('-')[1]
+		r[id] = el
+	}
+	return r
+}
+
+},{}],4:[function(require,module,exports){
+module.exports = function(evt) {
+	var o = this
+	console.log('INIT timeline')
 	o.el = document.getElementById('graph')
 	o.transform = function() {
 		var r = null
@@ -340,27 +381,39 @@ module.exports = function(evt) {
 }
 
 
-},{}],3:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 var resize = require('./resize')
 var swipe = require('./swipe')
-
+var getIdsByYear = require('./get-ids-by-year')
 
 module.exports = function(o) {
 	console.log('INIT dispatch')
+	o.map.color(getIdsByYear(0))
+	swipe(o)
+
 	var p = 0
 
-	swipe(o)
-	
 	o.evt.on('resize', function() { resize() })
 	o.evt.on('timeline-move', function(period) {
 		if(p !== period) {
-			console.log('EVENT timeline-move', period)
+			o.map.color(getIdsByYear(period))
 			p = period
 		}
 	})
 }
 
-},{"./resize":4,"./swipe":5}],4:[function(require,module,exports){
+},{"./get-ids-by-year":6,"./resize":7,"./swipe":8}],6:[function(require,module,exports){
+var data = require('../data/years.json')
+
+module.exports = function(y) {
+	var r = null
+	data.forEach(function(d) {
+		if(d.y === y) { r = { curr: d.ids, gain: d.gain, loss: d.loss } }
+	})
+	return r
+}
+
+},{"../data/years.json":2}],7:[function(require,module,exports){
 module.exports = function() {
 	var tlH = 200
 	var winH = window.innerHeight
@@ -382,11 +435,11 @@ module.exports = function() {
 	
 }
 
-},{}],5:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 var Hammer = require('hammerjs')
 
 module.exports = function(o) {
-	console.log('INIT swipe', o)
+	console.log('INIT swipe')
 
 	var m = null
 	var hammertime = new Hammer(document.getElementById('div-timeline'), {})
@@ -402,19 +455,23 @@ module.exports = function(o) {
 
 }
 
-},{"hammerjs":7}],6:[function(require,module,exports){
+},{"hammerjs":10}],9:[function(require,module,exports){
 var EventEmitter = require('events').EventEmitter
 var evt = new EventEmitter()
 var dispatch = require('./lib/dispatch')
 var Timeline = require('./lib/Timeline')
+var Map = require('./lib/Map')
 
 window.onload = function() {
 	var tl = new Timeline(evt)
+	var m = new Map(evt)
 	var o = {
 		evt: evt,
-		timeline: tl
+		timeline: tl,
+		map: m
 	}
 	window.o = o
+	console.log(o)
 	dispatch(o)
 
 	evt.emit('resize')
@@ -424,7 +481,7 @@ window.onresize = function() {
 	evt.emit('resize')
 }
 
-},{"./lib/Timeline":2,"./lib/dispatch":3,"events":1}],7:[function(require,module,exports){
+},{"./lib/Map":3,"./lib/Timeline":4,"./lib/dispatch":5,"events":1}],10:[function(require,module,exports){
 /*! Hammer.JS - v2.0.7 - 2016-04-22
  * http://hammerjs.github.io/
  *
@@ -3069,4 +3126,4 @@ if (typeof define === 'function' && define.amd) {
 
 })(window, document, 'Hammer');
 
-},{}]},{},[6]);
+},{}]},{},[9]);
