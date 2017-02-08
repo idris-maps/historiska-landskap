@@ -2,10 +2,19 @@ html, body { margin: 0; padding: 0 }
 body { font-family: arial,helvetica,sans-serif }
 
 /*-- MAP --*/
-.sea { fill: lightblue }
-.coast-buffer { fill: blue }
-.rest { fill: lightgrey }
+.sea { fill: #c6dbef }
+.coast-buffer { fill: #9ecae1 }
+.rest { fill: #d9d9d9 }
+
+/*-- MAP init --*/
+
 
 /*-- TIMELINE --*/
-#background { fill: lightgrey }
-
+#background { fill: #252525 }
+#middle-line { stroke: #fb6a4a }
+#timeline-icon-line { stroke: #d9d9d9 }
+#timeline-icon-bg, #timeline-icon { fill: #fb6a4a }
+#timeline-rect { fill: #6baed6 }
+#timeline-name { fill: white }
+#decades-bg { fill: white; fill-opacity: 0.6 }
+#decades-nb { fill: #252525 }
