@@ -1,5 +1,8 @@
+* { box-sizing: border-box; }
 html, body { margin: 0; padding: 0 }
 body { font-family: arial,helvetica,sans-serif }
+#container { width: 100% }
+#div-map, #div-timeline { margin: auto; }  
 
 /*-- MAP --*/
 .sea { fill: #c6dbef }

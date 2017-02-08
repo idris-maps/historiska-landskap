@@ -6,7 +6,7 @@ var htmlConfig = {
 	description: '',
 	title: '',
 	style: ['style.css'],
-	script: []
+	script: ['script.js']
 }
 
 html(htmlConfig, function(page) {

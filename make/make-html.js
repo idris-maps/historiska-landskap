@@ -14,11 +14,12 @@ function html(o) {
 		str = str 	+ '<link rel="stylesheet" href="' + s + '">'
 	})
 
-	str = str + '</head><body>'
+	str = str + '</head><body><div id="container">'
 	+ o.body
-	
+	+ '</div>'
+
 	o.script.forEach(function(s) {
-		str = str + 	+ '<script src="' + s + '"></script>'
+		str = str + '<script src="' + s + '"></script>'
 	})
 
 	str = str + '</body></html>'

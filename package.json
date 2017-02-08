@@ -4,7 +4,8 @@
   "description": "",
   "main": "make.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify main.js -o public/script.js"
   },
   "author": "idris-maps",
   "license": "GPL-2.0"
