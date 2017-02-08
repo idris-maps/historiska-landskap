@@ -299,20 +299,22 @@ function isUndefined(arg) {
 }
 
 },{}],2:[function(require,module,exports){
+module.exports=[{"war":{"start":1558,"end":1583,"wiki":"https://sv.wikipedia.org/wiki/Livl%C3%A4ndska_kriget","name":"Livländska kriget"},"peace":{"year":1561,"wiki":"https://sv.wikipedia.org/wiki/Svenska_Estland","name":"Riddarskapet svär trohet till kungen av Sverige","result":{"gain":["Estland"],"loss":[]}}},{"war":{"start":1610,"end":1617,"wiki":"https://sv.wikipedia.org/wiki/Ingermanl%C3%A4ndska_kriget","name":"Ingermanländska kriget"},"peace":{"year":1617,"wiki":"https://sv.wikipedia.org/wiki/Freden_i_Stolbova","name":"Freden i Stolbova","result":{"gain":["Ingermanland","Kexholms län (Karelen)"],"loss":[]}}},{"war":{"start":1600,"end":1629,"wiki":"https://sv.wikipedia.org/wiki/Andra_polska_kriget","name":"Andra polska kriget"},"peace":{"year":1629,"wiki":"https://sv.wikipedia.org/wiki/Stillest%C3%A5ndet_i_Altmark","name":"Stilleståndet i Altmark","result":{"gain":["Livland"],"loss":[]}}},{"war":{"start":1643,"end":1645,"wiki":"https://sv.wikipedia.org/wiki/Torstensonska_kriget","name":"Torstensonska kriget"},"peace":{"year":1645,"wiki":"https://sv.wikipedia.org/wiki/Freden_i_Br%C3%B6msebro","name":"Freden i Brömsebro","result":{"gain":["Gotland","Härjedalen","Idre och Särna (Dalarna)","Jämtland","Ösel"],"loss":[]}}},{"war":{"start":1618,"end":1648,"wiki":"https://sv.wikipedia.org/wiki/Trettio%C3%A5riga_kriget","name":"Trettioåriga kriget"},"peace":{"year":1648,"wiki":"https://sv.wikipedia.org/wiki/Westfaliska_freden","name":"Westfaliska freden","result":{"gain":["Svenska Pommern","Wismar","Ärkebiskopsstiftet Bremen"],"loss":[]}}},{"war":{"start":1653,"end":1654,"wiki":"https://sv.wikipedia.org/wiki/F%C3%B6rsta_bremiska_kriget","name":"Första bremiska kriget"},"peace":{"year":1654,"wiki":"https://sv.wikipedia.org/wiki/Recessen_i_Stade","name":"Recessen i Stade","result":{"gain":["Bremen"],"loss":[]}}},{"war":{"start":1657,"end":1658,"wiki":"https://sv.wikipedia.org/wiki/Karl_X_Gustavs_f%C3%B6rsta_danska_krig","name":"Karl X Gustavs första danska krig"},"peace":{"year":1658,"wiki":"https://sv.wikipedia.org/wiki/Freden_i_Roskilde","name":"Freden i Roskilde","result":{"gain":["Blekinge","Bohuslän","Bornholm","Halland","Skåne","Trondheim"],"loss":[]}}},{"war":{"start":1658,"end":1660,"wiki":"https://sv.wikipedia.org/wiki/Karl_X_Gustavs_andra_danska_krig","name":"Karl X Gustavs andra danska krig"},"peace":{"year":1660,"wiki":"https://sv.wikipedia.org/wiki/Freden_i_K%C3%B6penhamn","name":"Freden i Köpenhamn","result":{"gain":[],"loss":["Bornholm","Trondheim"]}}},{"war":{"start":1700,"end":1721,"wiki":"https://sv.wikipedia.org/wiki/Stora_nordiska_kriget","name":"Stora nordiska kriget"},"peace":{"year":1719,"wiki":"https://sv.wikipedia.org/wiki/Freden_i_Stockholm","name":"Freden i Stockholm","result":{"gain":[],"loss":["Bremen","Ärkebiskopsstiftet Bremen"]}}},{"war":{"start":1700,"end":1721,"wiki":"https://sv.wikipedia.org/wiki/Stora_nordiska_kriget","name":"Stora nordiska kriget"},"peace":{"year":1721,"wiki":"https://sv.wikipedia.org/wiki/Freden_i_Nystad","name":"Freden i Nystad","result":{"gain":[],"loss":["Estland","Ingermanland","Kexholms län (Karelen)","Livland","Viborgs län (Karelen)","Ösel"]}}},{"war":null,"peace":{"year":1803,"wiki":"https://sv.wikipedia.org/wiki/Wismar_(svenskt_guvernement)","name":"Pantsatt till Mecklenburg-Schwerin","result":{"gain":[],"loss":["Wismar"]}}},{"war":{"start":1808,"end":1809,"wiki":"https://sv.wikipedia.org/wiki/Finska_kriget","name":"Finska kriget"},"peace":{"year":1809,"wiki":"https://sv.wikipedia.org/wiki/Freden_i_Fredrikshamn","name":"Freden i Fredrikshamn","result":{"gain":[],"loss":["Egentliga Finland","Karelen","Lappland (finska delen)","Nyland","Satakunda","Savolax","Tavastland","Åland","Österbotten"]}}},{"war":{"start":1803,"end":1815,"wiki":"https://sv.wikipedia.org/wiki/Napoleonkrigen","name":"Napoleonkrigen"},"peace":{"year":1815,"wiki":"https://sv.wikipedia.org/wiki/Wienkongressen","name":"Wienkongressen","result":{"gain":[],"loss":["Svenska Pommern"]}}}]
+},{}],3:[function(require,module,exports){
 module.exports=[{"y":0,"ids":[4,5,6,9,11,16,18,19,21,22,23,24,25,27,29,30,32,33,34,35,36,37,40,41,42,44,45],"gain":[],"loss":[]},{"y":1561,"ids":[11,16,18,19,21,22,23,24,25,27,29,30,32,33,34,35,36,37,4,40,41,42,44,45,5,6,9],"gain":[7],"loss":[]},{"y":1617,"ids":[11,16,18,19,21,22,23,24,25,27,29,30,32,33,34,35,36,37,4,40,41,42,44,45,5,6,7,9],"gain":[14,17],"loss":[]},{"y":1629,"ids":[11,14,16,17,18,19,21,22,23,24,25,27,29,30,32,33,34,35,36,37,4,40,41,42,44,45,5,6,7,9],"gain":[20],"loss":[]},{"y":1645,"ids":[11,14,16,17,18,19,20,21,22,23,24,25,27,29,30,32,33,34,35,36,37,4,40,41,42,44,45,5,6,7,9],"gain":[8,12,13,15,43],"loss":[]},{"y":1648,"ids":[11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,27,29,30,32,33,34,35,36,37,4,40,41,42,43,44,45,5,6,7,8,9],"gain":[28,38,39],"loss":[]},{"y":1654,"ids":[11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,27,28,29,30,32,33,34,35,36,37,38,39,4,40,41,42,43,44,45,5,6,7,8,9],"gain":[3],"loss":[]},{"y":1658,"ids":[11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,27,28,29,3,30,32,33,34,35,36,37,38,39,4,40,41,42,43,44,45,5,6,7,8,9],"gain":[0,1,2,10,26,31],"loss":[]},{"y":1660,"ids":[0,1,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,3,30,32,33,34,35,36,37,38,39,4,40,41,42,43,44,45,5,6,7,8,9],"gain":[],"loss":[2,31]},{"y":1719,"ids":[0,1,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,32,33,34,35,36,37,38,4,40,41,42,43,44,45,5,6,7,8,9],"gain":[],"loss":[3,39]},{"y":1721,"ids":[0,1,10,11,12,13,15,16,18,19,21,22,23,24,25,26,27,28,29,30,32,34,35,36,37,38,4,40,41,42,44,45,5,6,8,9],"gain":[],"loss":[7,14,17,20,33,43]},{"y":1803,"ids":[0,1,10,11,12,13,15,16,18,19,21,22,23,24,25,26,27,28,29,30,32,34,35,36,37,4,40,41,42,44,45,5,6,8,9],"gain":[],"loss":[38]},{"y":1809,"ids":[0,1,10,11,12,13,15,18,19,21,23,25,26,27,28,29,32,34,35,36,37,4,41,42,45,5,8,9],"gain":[],"loss":[6,16,18,22,24,25,30,40,44]},{"y":1815,"ids":[0,1,10,11,12,13,15,18,19,21,23,26,27,29,32,34,35,36,37,4,41,42,45,5,8,9],"gain":[],"loss":[28]},{"y":2000,"ids":[0,1,10,11,12,13,15,18,19,21,23,26,27,29,32,34,35,36,37,4,41,42,45,5,8,9],"gain":[],"loss":[]}]
 
-},{}],3:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 module.exports = function(evt) {
 	var o = this
 	console.log('INIT map')
 	o.elements = getElements()
 	o.color = function(c) {
 		for(k in o.elements) { 
-			o.elements[k].setAttribute('fill', '#d9d9d9') 
+			o.elements[k].setAttribute('fill', '#ffffcc') 
 			o.elements[k].setAttribute('stroke', 'none') 
 		}
 		c.curr.forEach(function(id) {
-			o.elements[id].setAttribute('fill', '#f7fcb9')
+			o.elements[id].setAttribute('fill', '#d9f0a3')
 			o.elements[id].setAttribute('stroke', '#252525')
 		})
 		c.gain.forEach(function(id) {
@@ -320,8 +322,8 @@ module.exports = function(evt) {
 			o.elements[id].setAttribute('stroke', '#252525')
 		})
 		c.loss.forEach(function(id) {
-			o.elements[id].setAttribute('fill', '#fc4e2a')
-			o.elements[id].setAttribute('stroke', '#252525')
+			o.elements[id].setAttribute('fill', '#fd8d3c')
+			o.elements[id].setAttribute('stroke', '#fd8d3c')
 		})
 		
 	}
@@ -338,7 +340,7 @@ function getElements() {
 	return r
 }
 
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 module.exports = function(evt) {
 	var o = this
 	console.log('INIT timeline')
@@ -381,10 +383,34 @@ module.exports = function(evt) {
 }
 
 
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
+module.exports = function(evt) {
+	var els = getElements()
+	els.forEach(function(el) {
+		var y = +el.id.split('-')[1]
+		el.addEventListener('click', function() {
+			evt.emit('button-click', y)
+		})
+	})
+	
+}
+
+function getElements() {
+	var g = document.getElementById('timeline-icon')
+	var childs = g.children
+	var els = []
+	for(i=0;i<childs.length;i++) {
+		els.push(childs[i])
+	}
+	return els
+}
+
+},{}],7:[function(require,module,exports){
 var resize = require('./resize')
 var swipe = require('./swipe')
 var getIdsByYear = require('./get-ids-by-year')
+var getInfoByYear = require('./get-info-by-year')
+var getInfobox = require('./get-infobox')
 
 module.exports = function(o) {
 	console.log('INIT dispatch')
@@ -399,10 +425,18 @@ module.exports = function(o) {
 			o.map.color(getIdsByYear(period))
 			p = period
 		}
+		getInfobox(false)
 	})
+	o.evt.on('button-click', function(year) {
+		console.log('EVENT button-click', year, getInfoByYear(year))
+		var info = getInfoByYear(year)
+		info.evt = o.evt
+		getInfobox(info)
+	})
+	o.evt.on('close-infobox', function() { getInfobox(false) })
 }
 
-},{"./get-ids-by-year":6,"./resize":7,"./swipe":8}],6:[function(require,module,exports){
+},{"./get-ids-by-year":8,"./get-info-by-year":9,"./get-infobox":10,"./resize":11,"./swipe":12}],8:[function(require,module,exports){
 var data = require('../data/years.json')
 
 module.exports = function(y) {
@@ -413,7 +447,74 @@ module.exports = function(y) {
 	return r
 }
 
-},{"../data/years.json":2}],7:[function(require,module,exports){
+},{"../data/years.json":3}],9:[function(require,module,exports){
+var data = require('../data/wars.json')
+
+module.exports = function(year) {
+	var r = null
+	data.forEach(function(d) {
+		if(d.peace.year === year) { r = d }
+	})
+	return r
+}
+
+},{"../data/wars.json":2}],10:[function(require,module,exports){
+var icon = require('../svg/icons/icons')
+
+module.exports = function(info) {
+	var svg = document.getElementById('svg-map')
+	clear(svg)
+	if(info) {
+		var g = document.createElementNS('http://www.w3.org/2000/svg', 'g')
+		g.innerHTML = box(info)
+		g.setAttribute('class','infobox')
+		svg.appendChild(g)
+		document.getElementById('close-infobox').onclick = function() { info.evt.emit('close-infobox') }
+		if(info.war) {
+			document.getElementById('war-text').onclick = function() { window.open(info.war.wiki) }
+		}
+		document.getElementById('peace-text').onclick = function() { window.open(info.peace.wiki) }
+	}
+}
+
+function clear(svg) {
+	var ib = document.getElementsByClassName('infobox')
+	console.log(ib)
+	if(ib.length > 0) { svg.removeChild(ib[0]) }
+}
+
+
+function box(info) {
+	var fs = 100
+	var lineStart = 0
+	var line = 200
+	var svg = '<g font-size="' + fs + '" transform="translate(100,100)">'
+		+ '<rect x="-20" y="-20" width="2320" height="2320" fill="white" opacity="0.7"></rect>'
+	if(info.war) {
+		svg = svg + '<text x="300" y="' + line * 1 + '" font-weight="bold">' + info.war.start + '-' + info.war.end + '</text>'
+			+ '<text id="war-text" x="50" y="' + line * 2 + '">' + info.war.name + '</text>'
+			+ '<g transform="translate(150, ' + line * 1 + ') scale(0.2)">' + icon.war('#fed976', '#525252') + '</g>'
+			lineStart = line * 2
+	}
+
+	svg = svg + '<text x="300" y="' + (lineStart + line * 1) + '" font-weight="bold">' + info.peace.year + '</text>'
+		+ '<text id="peace-text" x="50" y="' + (lineStart + line * 2) + '">' + info.peace.name + '</text>'
+		+ '<g transform="translate(150, ' + (lineStart + line * 1) + ') scale(0.2)">' + icon.peace('#fed976', '#525252') + '</g>'
+	lineStart = lineStart + line * 3
+
+	info.peace.result.gain.forEach(function(n, i) {
+		svg = svg + '<text x="100" y="' + (lineStart + line * ((i+1)/2)) + '" fill="#41ab5d">+ ' + n + '</text>'
+	})
+
+	info.peace.result.loss.forEach(function(n, i) {
+		svg = svg + '<text x="100" y="' + (lineStart + line * ((i+1)/2)) + '" fill="#fd8d3c">- ' + n + '</text>'
+	})
+
+	svg = svg 			+ '<g id="close-infobox" transform="translate(1240, 2200) scale(0.2)">' + icon.close('#fb6a4a', 'white') + '</g>'
+	return svg
+}
+
+},{"../svg/icons/icons":15}],11:[function(require,module,exports){
 module.exports = function() {
 	var tlH = 200
 	var winH = window.innerHeight
@@ -435,7 +536,7 @@ module.exports = function() {
 	
 }
 
-},{}],8:[function(require,module,exports){
+},{}],12:[function(require,module,exports){
 var Hammer = require('hammerjs')
 
 module.exports = function(o) {
@@ -455,24 +556,26 @@ module.exports = function(o) {
 
 }
 
-},{"hammerjs":10}],9:[function(require,module,exports){
+},{"hammerjs":14}],13:[function(require,module,exports){
 var EventEmitter = require('events').EventEmitter
 var evt = new EventEmitter()
 var dispatch = require('./lib/dispatch')
 var Timeline = require('./lib/Timeline')
 var Map = require('./lib/Map')
+var buttons = require('./lib/buttons')
 
 window.onload = function() {
 	var tl = new Timeline(evt)
 	var m = new Map(evt)
+
 	var o = {
 		evt: evt,
 		timeline: tl,
 		map: m
 	}
-	window.o = o
-	console.log(o)
+	buttons(evt)
 	dispatch(o)
+	//testIcons()
 
 	evt.emit('resize')
 }
@@ -480,8 +583,18 @@ window.onload = function() {
 window.onresize = function() {
 	evt.emit('resize')
 }
+/*
+var icons = require('./svg/icons/icons')
+function testIcons() {
+	var svg = document.getElementById('svg-map')
+	var g = document.createElementNS('http://www.w3.org/2000/svg', 'g')
+	g.setAttribute('transform', 'translate(100,100) scale(0.2)')
+	g.innerHTML = icons.close('red', 'white')
+	svg.appendChild(g)
+}
+*/
 
-},{"./lib/Map":3,"./lib/Timeline":4,"./lib/dispatch":5,"events":1}],10:[function(require,module,exports){
+},{"./lib/Map":4,"./lib/Timeline":5,"./lib/buttons":6,"./lib/dispatch":7,"events":1}],14:[function(require,module,exports){
 /*! Hammer.JS - v2.0.7 - 2016-04-22
  * http://hammerjs.github.io/
  *
@@ -3126,4 +3239,15 @@ if (typeof define === 'function' && define.amd) {
 
 })(window, document, 'Hammer');
 
-},{}]},{},[9]);
+},{}],15:[function(require,module,exports){
+exports.peace = function(outer, inner) {
+	return '<g transform="translate(754.88 408.02)" opacity="1"><circle r="500" cy="-616.2" cx="-754.3" opacity="1" fill="' + outer + '" fill-opacity="1"/><path d="M-418.4-1024.6h-4.5c-12 .2-17.7 1.4-37.7 8-55.4 18.3-121 54-133.8 72.4-2.7 4-17.3 27.2-32.4 51.8-30.8 50.3-48.2 76.5-54.6 82.6-6.4 6-8.4 2.8-8-13 .5-26.4 14.7-66.2 30.5-86l7-9-24 12c-52 26-103.4 58-134 83l-15.3 12.8-2 12.3c-1 6.8-3.4 25-5.3 40.2-5.2 42.4-8.6 64-10.4 65.2-4.4 2.7-6-2.6-12.2-43-4.2-26.7-6.7-35.8-9.3-33l-14 17.6c-120.2 153-188 331.6-154 405.7l4 9h.7l23.5-35.5c61.5-93.3 123.8-174.2 202-262C-774-665.7-681-758.2-649-786.5c49.5-43.4 108.2-90 149.3-118.5 15.3-10.6 12.7-8-10.4 10.3-63 50.3-148.3 134-219 214.8-73.6 84.3-152.5 188.2-221.3 291.4-37 55.7-44.5 67.6-43.2 69.7 1.5 2.6 24.7.8 46.7-3.6 54.7-11 119.4-43.2 178-88.8 20.2-15.7 56-47.2 56-49.3 0-2.4-8.4-7.6-25.4-15.7-24.2-11.5-26.8-16.5-12-22.8 7.7-3.2 15.6-5.3 57.6-15.3 33.3-7.8 39-10.5 49.3-22.6 23-27.6 97.4-132.2 97.4-137 0-1.7-17.3-1-44 2-20.8 2.3-27 2.5-28.7 1-4.5-4.6 2-8.7 76.2-48.5 40.3-21.7 34.7-15.2 64.5-74.7 34.4-69 57-126.5 68.7-174 4.5-18.8 6-46.6 3-52.4-2-3.5-2.8-4-12-4zM-732-695c-164 163-267 320.5-374.7 505.8l38.3-19.6c93-183.6 219-322.8 336.4-486.3z" fill="' + inner + '"/></g>' 
+}
+exports.war = function(outer, inner) {
+	return '<g transform="translate(806.623 -797.76)" opacity="1"><circle r="500" cy="589.5" cx="-805.7" opacity="1" fill="' + outer + '" fill-opacity="1"/><path d="M-1158.8 955l-32.8-32.7 9.3-9.3 9.2-9.2-8-8-8-8 17.4-17.5c9.6-9.6 18-17.5 18.5-17.5.4 0 4.3 3.4 8.4 7.5l7.6 7.5 40.4-40.5 40.5-40.5-15.8-15.8-15.8-15.7 18-18 18-18 18.4 18.4 18.4 18.3 37-40.4c20.3-22 51-55.6 68-74.3l31.2-34-3.3-3c-1.6-1.8-64-59-138.3-127-74.4-68-135.3-123.8-135.3-124 0-.3-8-29.8-18-65.6s-17.8-65.4-17.5-65.7c.5-.6 127.8 34.4 131 36 1.4.8 58.2 62 126.4 136.3 68.3 74.2 124.5 135 125 135.3.4 0 57-61 125.5-136l124.6-136.3 66-18.4c36.3-10.2 66.2-18.2 66.4-18 .3.3-7.7 30.2-17.8 66.4l-18.3 65.8-137.7 126.5c-75.8 69.6-137.6 127-137.5 127.5 0 .4 30.8 34 68.2 74.7l68 73.8 19.2-19.2 19.2-19.3 18 18 18 18-16.5 16.5-16.6 16.5 40.5 40.5 40.4 40.5 8.5-8.5 8.4-8.5 18 18 18 18-8.5 8.5-8.6 8.5 9 9 9 9-32.7 32.8-32.7 33-9-9.2-9-9-8 8-8 8-18-18-18-18 7.7-7.8 7.7-7.7-40.5-40.5-40.6-40.5-15.2 15.2c-8.4 8.4-15.7 15.3-16.3 15.3-.6 0-9-8-18.6-17.5l-17.5-17.5 18.4-18.6 18.5-18.5-2.7-2.3L-768.5 708c-38.6-35.3-39.5-36-41.5-34.4l-76 69.6-73.7 68 19.3 19.3 19.3 19.3-18 18-18 18-16.6-16.5-16.5-16.5-40.6 40.5-40.4 40.5 8.2 8.2 8.2 8.3-18 18-18 18-8.2-8.3-8.3-8.2-9 9c-5 5-9.3 9-9.6 9-.2 0-15.2-14.7-33.2-32.8z" fill="' + inner + '"/></g>'
+}
+exports.close = function(outer, inner) {
+	return '<g transform="translate(2397.908 -337.62)" opacity="1" fill-opacity="1"><circle r="500" cy="129.5" cx="-2397.1" opacity="1" fill="' + outer + '"/><path d="M-2099-176.2l-299 268.8-295-265.4-42 46.7 290 261-293.5 264 42 46.6L-2398 177l302.4 272 42-46.8-297.3-267.4 294-264.2-42-46.8z" opacity="1" fill="' + inner + '"/></g>'
+}
+
+},{}]},{},[13]);

@@ -7,9 +7,7 @@ body { font-family: arial,helvetica,sans-serif }
 /*-- MAP --*/
 .sea { fill: #c6dbef }
 .coast-buffer { fill: #9ecae1 }
-.rest { fill: #d9d9d9 }
-
-/*-- MAP init --*/
+.rest { fill: #ffffcc }
 
 
 /*-- TIMELINE --*/
