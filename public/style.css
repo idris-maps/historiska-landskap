@@ -1,0 +1,11 @@
+html, body { margin: 0; padding: 0 }
+body { font-family: arial,helvetica,sans-serif }
+
+/*-- MAP --*/
+.sea { fill: lightblue }
+.coast-buffer { fill: blue }
+.rest { fill: lightgrey }
+
+/*-- TIMELINE --*/
+#background { fill: lightgrey }
+
